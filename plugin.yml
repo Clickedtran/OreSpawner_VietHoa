@@ -1,0 +1,23 @@
+name: OreSpawner
+api: 4.0.0
+authors:
+  - VennV(hachkingtohach1)
+  - NSNguyenVuong
+  - ClickedTran (Vietnamese people)
+main: vennv\orespawner\Main
+version: 2.0.0
+description: VennV OreSpawner but this is a better version!
+
+commands:
+  orespawner:
+    aliases: ["osp", "os", "oregenerator", "generator", "oregen"]
+    description: "Main command for OreSpawner"
+    permission: "orespawner.command"
+
+permissions:
+    orespawner.command:
+      description: "Permission to use the OreSpawner command."
+      default: true
+    orespawner.command.give:
+      description: "Permission to use the OreSpawner command."
+      default: op
