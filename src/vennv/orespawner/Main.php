@@ -117,7 +117,7 @@ class Main extends PluginBase implements Listener {
 						$player->sendMessage("§cTúi đồ của bạn đã đầy, đã hủy mua hàng!");
 					}
 				} else {
-					$player->sendMessage("§cbạn không có đủ \$$cost money để mua $count ore spawner!");
+					$player->sendMessage("§cBạn không có đủ \$$cost money để mua $count ore spawner!");
 				}
 			},
 			function(Player $player) : void{
@@ -206,7 +206,7 @@ class Main extends PluginBase implements Listener {
                    		 return false;
                   	  }
                         $player->getInventory()->addItem(ItemSpawner::getItemSpawner((int) $args[2] > 10 ? 10 : (int) $args[2], (int) $args[3] < 1 ? 1 : (int) $args[3], $args[4]));
-                        $player->sendMessage("§aạn đã được tặng (x{$args[3]}) " . strtolower($args[4]) . " OreSpawner với cấp độ {$args[2]}");
+                        $player->sendMessage("§aBạn đã được tặng (x{$args[3]}) " . strtolower($args[4]) . " OreSpawner với cấp độ {$args[2]}");
                         $sender->sendMessage("§aBạn đã tặng thành công OreSpawner!");
                     } else {
                         $sender->sendMessage("§clệnh không hợp lệ! Vui lòng sử dụng§b /orespawner help§c để xem lệnh!");
