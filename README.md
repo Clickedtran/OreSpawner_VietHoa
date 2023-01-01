@@ -21,7 +21,7 @@
 <br>
 
 ## Feature 
-- First of all I would like to thank VennV (This plugin take from <a href="https://github.com/VennDev/OreSpawner/">here</a>) And NSNguyenVuong (Add Form For Plugin)
+- First of all I would like to thank VennV (The main plugin is taken from <a href="https://github.com/VennDev/OreSpawner/">here</a>) And NSNguyenVuong (Add Form For Plugin)
 - The plugin is Vietnameseized froma <a href="https://github.com/NovaStark1234/OreSpawnerModify">in here</a>
 <br>
 
