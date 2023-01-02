@@ -198,7 +198,7 @@ class Main extends PluginBase implements Listener {
                     if (!$sender->hasPermission('orespawner.command.give')) return true;
                     if (isset($args[1]) && isset($args[2]) && isset($args[3]) && isset($args[4])) {
                     	if(!in_array(strtolower($args[4]), $this->getSpawnerOres())) {
-                    		$sender->sendMessage("§cUndefined ore type {$args[4]} (Available type: " . implode(", ", self::getSpawnerOres()) . ")");
+                    		$sender->sendMessage("§cLoại quặng này không tồn tại {$args[4]} (loại có sẵn: " . implode(", ", self::getSpawnerOres()) . ")");
                     		return false;
                    	 }
                    	 if(($player = $this->getServer()->getPlayerByPrefix($args[1])) === null) {
