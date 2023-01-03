@@ -30,7 +30,24 @@ class Main extends PluginBase implements Listener {
     }
     
     public static function getSpawnerOres() :array {
-    	return ["stone", "cobblestone", "coal", "coal_ore", "iron", "iron_ore", "gold", "gold_ore", "diamond", "diamond_ore", "emerald", "emerald_ore"];
+    	return [
+         "stone", 
+         "cobblestone", 
+         "coal", 
+         "coal_ore", 
+         "iron", 
+         "iron_ore", 
+         "gold", 
+         "gold_ore", 
+         "diamond", 
+         "diamond_ore", 
+         "emerald", 
+         "emerald_ore", 
+         "redstone", 
+         "redstone_ore",
+         "lapis_lazuli",
+         "lapis_lazuli_ore"
+        ];
     }
 
     public function onEnable() : void {
