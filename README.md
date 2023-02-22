@@ -46,45 +46,12 @@
 <br>
 
 ## Command 
-<table align="center" border="1">
-<tr>
-<th colspan="3"><u>MEMBER COMMAND</u></th>
-</tr>
-<tr>
-<td>Command</td>
-<td>Description</td>
-<td>Aliases</td>
-</tr>
-<tr>
-<th>/orespawner</th>
-<td>OPEN ORESPAWNER MENU</td>
-<td>/os, /osp, /oregen</td>
-</tr>
-</table>
-<br>
 
-<table align="center" border="1">
-<tr>
-<th colspan="4"><u>OP COMMAND</u></th>
-</tr>
-<tr>
-<td>Command</td>
-<td>Subcommand</td>
-<td>Description</td>
-<td>Aliases</td>
-</tr>
-<tr>
-<th rowspan="2">/orespawner</th>
-<td></td>
-<td>OPEN ORESPAWNER MENU</td>
-<td>/os, /osp, /oregen</td>
-</tr>
-<tr>
-<td>give (player) (level) (amount) (ore)</td>
-<td>Give OreSpawner For Player With Level And Amount</td>
-<td>/os give (player) (level) (amount) (ore) <br> /oregen give (player) (level) (amount) (ore) <br> ....</td>
-</tr>
-</table>
+| **Command** | **Alies** | **Description** | **Default Permission**|
+| :-----: | :-----: | :-----: | :-----: |
+| `/osp` | give `player` `level` `amount` `ore` | Give OreSpawner For Player | `OP` `Server` |
+| `/osp` | | Open Menu OreSpanwer | `true`
+
 <br>
 
 ## Download
