@@ -46,11 +46,14 @@
 <br>
 
 ## Command 
+<h4>Give Orespawner for player</h4>
 
-| **Command** | **Alies** | **Description** | **Default Permission**|
-| :-----: | :-----: | :-----: | :-----: |
-| `/osp` | give `player` `level` `amount` `ore` | Give OreSpawner For Player | `OP` `Server` |
-| `/osp` | | Open Menu OreSpanwer | `true`
+>- /osp `give player level amount ore`
+
+<br>
+<h4>Open Menu OreSpawner</h4>
+
+>- /osp
 
 <br>
 
