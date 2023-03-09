@@ -48,7 +48,7 @@
 ## Command 
 <h4>Give Orespawner for player</h4>
 
->- /osp `give player level amount ore`
+>- /osp ``` <give> <player> <level> <amount> <ore> ```
 
 <br>
 <h4>Open Menu OreSpawner</h4>
